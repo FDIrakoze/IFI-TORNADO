@@ -7,7 +7,7 @@ Ce TP a pour but de vous introduire Tornado web Framework dans le cadre du cours
 
 Nous avons vu la structure typique d'une application web avec Tornado. (cf Diapo page 12) 
 
-Maintenant, Nous allons essayé de mettre en pratique tout cela ;)!!
+Maintenant, Nous allons essayer de mettre en pratique tout cela ;)!!
 
   On va vous demander de réaliser votre première application, c'est tout simple:
   
