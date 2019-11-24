@@ -1,13 +1,9 @@
 # TP TORNADO
 
 Ce TP a pour but de vous introduire Tornado web Framework dans le cadre du cours IFI.
-Il sera composé de 3 parties :
 
-1. Base
-2. Intermédiaire
-3. avancé
 
-## Partie 1: les  Bases
+## Première application
 
 Nous avons vu la structure typique d'une application web avec Tornado. (cf Diapo page 12) 
 
@@ -26,3 +22,29 @@ Si tout se passe bien, vous aurez cela comme résultat:
 
 ![result](Capture.PNG)
 
+## REST API
+
+Tornado peut être aussi utilisé pour développer des applications REST. Nous allons donc apprendre  
+à travers cette exercice comment developper une API REST.
+
+
+***`Note: Afin de tester notre API nous allons utiliser un client REST: POSTMAN ou CURL`***
+
+Description:
+
+Nous allons utliser Tornado pour gérer l'ajout et la suppression d'item dans un dictionnaire (type de structure de données dans python) d'items.
+
+Pour ce faire vous avez à disposition un fichier items.py que vous allez devoir compléter pour faire fonctionner l'API.
+
+Les items seront sous format JSON:
+```
+{
+  "id":1,
+  "name": "blabla"
+}
+```
+
+Il va falloir récupérer le JSon dans la request.body et l'ajouter au dictionnaire des items.
+
+
+Il vous est demandé aussi de rajouter un Requesthandler `printItems`pour afficher sur une page les items dans le dictionnaire.
