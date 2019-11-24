@@ -15,10 +15,10 @@ Maintenant, Nous allons essayé de mettre en pratique tout cela ;)!!
 
   On va vous demander de réaliser votre première application, c'est tout simple:
   
-  * Créez une application qui prends en entrée un nombre (via une page web) et qui affiche un simple message nous disant si le nombre est pair ou impair.
+  * Créez une application qui prends en entrée un nombre (le nombre sera récupéré depuis la requête HTTP) et qui affiche un simple message nous disant si le nombre est pair ou impair.
 
 
-  * Ensuite faite le même exercice mais en utilisant un template html. Cela veut dire que nous allons renvoyer une page html.
+  * Ensuite faite le même exercice mais en utilisant un template html.
   
 ***`Note: tornado.web.RequestHandler.get_argument()  pourrait vous être utile`***
 
