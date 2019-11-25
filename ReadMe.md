@@ -11,7 +11,7 @@ Toutes les commandes utiles devront maintenant être exécutées avec l'environm
 
 Pour sortir de l'environnement virtuel `deactivate`
 
-Installation de Tornado dans l'environnement virtuel : `pip install tornado`
+Installation de Tornado dans l'environnement virtuel : `pip3 install tornado`
 
 
 ## Première application
