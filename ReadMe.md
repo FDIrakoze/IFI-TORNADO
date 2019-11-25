@@ -2,6 +2,17 @@
 
 Ce TP a pour but de vous introduire Tornado web Framework dans le cadre du cours IFI.
 
+## Initialisation de l'environnement
+Création de votre environnement virtuel : `virtualenv env_name -p python3`
+
+Activation de votre environnement virtuel : `source env_name/bin/activate`
+
+Toutes les commandes utiles devront maintenant être exécutées avec l'environment virtuel actif.
+
+Pour sortir de l'environnement virtuel `deactivate`
+
+Installation de Tornado dans l'environnement virtuel : `pip install tornado`
+
 
 ## Première application
 
