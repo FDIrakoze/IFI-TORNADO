@@ -83,7 +83,10 @@ Vous aurez pour missions, si vous l'acceptez d'afficher une liste d'article. Voi
 
 
 **PS : vous pouvez reprendre le code htlml fournis dans "base.html" pour l'utilisation de bootstrap, ou utiliser vos propre fichier css auquel cas il faudra les importer au projet**
-
+certaines urls utiles pour bootstrap : 
+    https://getbootstrap.com/docs/4.0/layout/media-object/
+    https://getbootstrap.com/docs/4.0/content/images/
+    
 ### More Info 
 Maintenant que la liste d'articles s'affiche correctement, on souhaite pouvoir accéder à d'avantages d'informations sur un article précis, comme on peut le constater sur la dernière image : "More Info". Pour cela, il va falloir implémenter un nouvel RequestHandler, appeler le "ArticleDetailHandler". 
 Vous aurez donc besoin de stocker la liste d'articles que vous aviez récupérer dans le 'MainHandler', même si il existe sûrement d'autres moyen de stocker cette liste, dans le notre on ce contentera d'une variable global.
