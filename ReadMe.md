@@ -83,8 +83,8 @@ Vous aurez pour missions, si vous l'acceptez d'afficher une liste d'article. Voi
 
 
 **PS : vous pouvez reprendre le code htlml fournis dans "base.html" pour l'utilisation de bootstrap, ou utiliser vos propre fichier css auquel cas il faudra les importer au projet**
-certaines urls utiles pour bootstrap : 
-    https://getbootstrap.com/docs/4.0/layout/media-object/
+certaines urls utiles pour bootstrap :    
+    https://getbootstrap.com/docs/4.0/layout/media-object/   
     https://getbootstrap.com/docs/4.0/content/images/
     
 ### More Info 
