@@ -45,7 +45,7 @@ Tornado peut être aussi utilisé pour développer des applications REST. Nous a
 à travers cet exercice comment developper une API REST.
  
 
-***`Note: Afin de tester notre API nous allons utiliser un client REST: Advanced REST Client ou Postman ou curl`***   
+***`Note: Afin de tester votre API vous allez pouvoir utiliser un client REST: Advanced REST Client ou Postman ou curl`***   
 [Advanced REST Client](https://chrome.google.com/webstore/detail/advanced-rest-client/hgmloofddffdnphfgcellkdfbfbjeloo?hl=fr) 
 
 Description:
