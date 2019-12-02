@@ -32,6 +32,8 @@ Maintenant, Nous allons essayer de mettre en pratique tout cela ;)!!
   * Ajoutez la bonne route dans l'App Tornado afin d'accéder au handler via `http://localhost:8881/isEven?n=9`.
 
   * Maintenant utilisez un template html `even.html`(à créer ;-)) pour l'affichage.
+  *
+  * Les applications Tornado se lancent tout simplement comme des programmes Python avec `python3 even.py` (Oui python3 c'est mieux ;-))
   
 ***`Note: tornado.web.RequestHandler.get_argument()  pourrait vous être utile`***
 
@@ -45,7 +47,7 @@ Tornado peut être aussi utilisé pour développer des applications REST. Nous a
 à travers cet exercice comment developper une API REST.
  
 
-***`Note: Afin de tester votre API vous allez pouvoir utiliser un client REST: Advanced REST Client ou Postman ou curl`***   
+***`Note: Afin de tester notre API nous allons utiliser un client REST: Advanced REST Client ou Postman ou curl`***   
 [Advanced REST Client](https://chrome.google.com/webstore/detail/advanced-rest-client/hgmloofddffdnphfgcellkdfbfbjeloo?hl=fr) 
 
 Description:
