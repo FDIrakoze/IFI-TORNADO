@@ -9,7 +9,7 @@ class printItems(RequestHandler):
     # TODO
 
 class TodoItem(RequestHandler):
-  def post(self):
+  def post(self, _):
     # add the item in items
     # TODO
     self.write({'message': 'new item added'})
