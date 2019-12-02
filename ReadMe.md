@@ -52,7 +52,7 @@ Description:
 
 Nous allons utliser Tornado pour gérer l'ajout et la suppression d'item dans une liste d'items.
 
-Pour ce faire vous avez à votre disposition un fichier items.py que vous allez devoir compléter pour faire fonctionner l'API.
+Pour ce faire vous avez à votre disposition un fichier `items.py` que vous allez devoir compléter pour faire fonctionner l'API.
 
 Les items seront sous format JSON:
 ```
