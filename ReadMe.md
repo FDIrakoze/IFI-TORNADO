@@ -73,8 +73,8 @@ Il vous est aussi demandé  de rajouter un Requesthandler `printItems`pour affic
 L'objectif de cet exercice est d'afficher une liste d'articles récupérés depuis une api : "https://newsapi.org/v2/top-headlines?sources=google-news-fr&apiKey=9e1d0b0198fa42f8b8966332df05b8ed"    
 
 L'arborescence de l'exercice : 
-    - un fichier python "article.py"
-    - un dossier templates comprenant : "index.html", "article.html"
+* un fichier python "article.py"
+* un dossier templates comprenant : "index.html", "article.html"
 
 ### Récupération des articles 
 Dans un premier temps, on cherche à récuperer la liste d'articles depuis l'api, pour ce faire il sera donc nécessaire d'implementer un RequesHandler : `MainHandler`
