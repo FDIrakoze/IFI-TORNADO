@@ -17,7 +17,7 @@ Installation de Tornado dans l'environnement virtuel : `pip3 install tornado`
 
 ## Exercice 1: Première application
 
-Nous avons vu la structure typique d'une application web avec Tornado. (cf Diapo page 13) 
+Nous avons vu la structure typique d'une application web avec Tornado. (cf Diapo page 14) 
 
 Maintenant, Nous allons essayer de mettre en pratique tout cela ;)!!
 
