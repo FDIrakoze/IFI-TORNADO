@@ -23,10 +23,15 @@ Maintenant, Nous allons essayer de mettre en pratique tout cela ;)!!
 
   On va vous demander de réaliser votre première application, c'est tout simple:
   
-  * Créez une application qui prends en entrée un nombre (le nombre sera récupéré depuis la requête HTTP) et qui affiche un simple message nous disant si le nombre est pair ou impair.
+  * Créez un fichier `even.py`
+  
+  * Initialisez une application Tornado (cf Diapo page 14) dans le fichier créé.
+  
+  * Ecrivez un handler `isEvenHandler` (cf Diapo page 15) qui à partir d'un nombre (récupéré en tant qu'argument de la requête) détecte s'il est pair ou impair et écrit le résultat.
+  
+  * Ajoutez la bonne route dans l'App Tornado afin d'accéder au handler via `http://localhost:8881/isEven?n=9`.
 
-
-  * Ensuite faites le même exercice mais en utilisant un template html.
+  * Maintenant utilisez un template html `even.html`(à créer ;-)) pour l'affichage.
   
 ***`Note: tornado.web.RequestHandler.get_argument()  pourrait vous être utile`***
 
