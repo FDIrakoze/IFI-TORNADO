@@ -52,7 +52,7 @@ Tornado peut être aussi utilisé pour développer des applications REST. Nous a
 
 Description:
 
-Nous allons utliser Tornado pour gérer l'ajout et la suppression d'item dans une liste d'items.
+Nous allons utiliser Tornado pour gérer l'ajout et la suppression d'item dans une liste d'items.
 
 Pour ce faire vous avez à votre disposition un fichier `items.py` que vous allez devoir compléter pour faire fonctionner l'API.
 
